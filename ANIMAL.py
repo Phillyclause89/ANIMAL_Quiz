@@ -1,6 +1,3 @@
-
-
-
 def numberchecker():
     # First we prompt the user to enter a number or enter the quit command
     print("Enter Number or enter 'q' to quit:")
