@@ -6,7 +6,7 @@ def numberchecker():
     print("Enter Number or enter 'q' to quit:")
     # Next we store our input as a variable called i
     i = input()
-    # Then our outer if statement checks if one of 4 quit commands is entered.
+    # Then our outer if statement checks if one of 5 possible quit commands is entered.
     if i == "q" or i == "Q" or i == "Quit" or i == "QUIT" or i == "quit":
         # if the quit command is entered than we print good by and terminate the script by not calling the function again.
         print("Good bye!")
