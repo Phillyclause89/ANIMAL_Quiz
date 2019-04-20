@@ -2,7 +2,7 @@
 
 
 def numberchecker():
-    print("Enter Number or Press q to quit:")
+    print("Enter Number or enter 'q' to quit:")
     i = input()
     if i == "q":
         print("Good bye!")
