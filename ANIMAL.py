@@ -10,7 +10,7 @@ def numberchecker():
     if i == "q" or i == "Q" or i == "Quit" or i == "QUIT" or i == "quit":
         # if the quit command is entered than we print good by and terminate the script by not calling the function again.
         print("Good bye!")
-    # We then nest the second if in a try statement just in case the input is not the quit command or convertible into an integer
+    # We then nest the inner if statement in a try statement just in case the input is not the quit command or convertible into an integer
     else:
         try:
             # We try to convert our input into an integer if this returns a ValueError then we'll jump to the exception
